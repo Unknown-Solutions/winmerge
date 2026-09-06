@@ -358,31 +358,32 @@ necessario ripetere la scansione dei file.</para>
     </section>
 
     <section>
-      <title>Using plugin pipelines</title>
+      <title>Uso pipeline plug-in</title>
 
-      <para>Plugin pipelines allow you to chain multiple plugins and filter expressions
-using the pipe character (<keycap>|</keycap>) as a separator.  Plugin
-pipelines can be used with all plugin types: unpacker, prediffer, and editor
-complement plugins.</para>
+      <para>Le pipeline plugin consentono di concatenare più plugin e filtrare
+espressioni usando il carattere pipe (<keycap>|</keycap>) come
+separatore. Le pipeline plug-in possono essere usate con tutti i tipi di
+plug-in: plug-in decompressione,, prediffer e complemento editor.</para>
 
-      <para>Plugins are specified by their names. For example:</para>
+      <para>I plugin sono specificati dai loro nomi. Esempio:</para>
 
       <synopsis>MakeUpper|SortAscending|Replace "AAA" "BBB"</synopsis>
 
-      <para>Filter expressions can also be used in plugin pipelines by prefixing them
-with <literal>le:</literal>. For example:</para>
+      <para>Le espressioni di filtro possono essere usate anche nelle pipeline plugin
+prefissandole con <literal>le:</literal>. Eesempio:</para>
 
       <synopsis>MakeUpper|le:toUpper(Line)|SortAscending</synopsis>
 
-      <para>See <xref linkend="FilterExpression_Syntax" /> for available filter
-expression functions and operators.</para>
+      <para>Per le funzioni e gli operatori delle espressioni di filtro disponibili vedi
+<xref linkend="FilterExpression_Syntax" />.</para>
 
-      <para>You can specify a plugin pipeline in the <guibutton>Select
-Plugin</guibutton> dialog by entering the pipeline expression.</para>
+      <para>Puoi specificare nella finestra di dialogo <guibutton>Seleziona
+plugin</guibutton> una pipeline plugin inserendo l'espressione della
+pipeline.</para>
 
-      <para>When a plugin pipeline is already selected, you can append a plugin to it by
-holding down the <keycap>Ctrl</keycap> key while clicking the plugin in a
-plugin selection menu.</para>
+      <para>Quando è già selezionata una pipeline plugin, puoi aggiungervi un plugin
+tenendo premuto il tasto <keycap>Ctrl</keycap> mentre fai clic sul plugin
+nel menu di selezione di un plugin.</para>
     </section>
   </section>
 
@@ -2072,8 +2073,8 @@ rep="norepeat"><replaceable>intervalli</replaceable></arg></cmdsynopsis>
       <cmdsynopsis sepchar=" ">
 <command>SelectColumns</command> <arg><option>-v</option></arg>
 <arg><option>-i</option></arg> <arg><option>-g</option></arg>
-<arg><option>-e</option> <replaceable>patterns</replaceable></arg>
-<arg><option>-F</option> <replaceable>fixed string</replaceable></arg></cmdsynopsis>
+<arg><option>-e</option> <replaceable>modelli</replaceable></arg>
+<arg><option>-F</option> <replaceable>stringa fissa</replaceable></arg></cmdsynopsis>
 
       <variablelist>
         <varlistentry>
@@ -2121,7 +2122,7 @@ rep="norepeat"><replaceable>intervalli</replaceable></arg></cmdsynopsis>
         <varlistentry>
           <term><option>-F</option></term>
           <listitem>
-            <para>use fixed string for matching</para>
+            <para>per la corrispondenza usa una stringa fissa</para>
           </listitem>
         </varlistentry>
 
@@ -2170,8 +2171,8 @@ rep="norepeat"><replaceable>intervalli</replaceable></arg></cmdsynopsis>
       <cmdsynopsis sepchar=" ">
 <command>SelectLines</command> <arg><option>-v</option></arg>
 <arg><option>-i</option></arg> <arg><option>-e</option>
-<replaceable>patterns</replaceable></arg> <arg><option>-F</option>
-<replaceable>fixed string</replaceable></arg></cmdsynopsis>
+<replaceable>modelli</replaceable></arg> <arg><option>-F</option>
+<replaceable>stringa fissa</replaceable></arg></cmdsynopsis>
 
       <variablelist>
         <varlistentry>
@@ -2212,7 +2213,7 @@ rep="norepeat"><replaceable>intervalli</replaceable></arg></cmdsynopsis>
         <varlistentry>
           <term><option>-F</option></term>
           <listitem>
-            <para>use fixed string for matching</para>
+            <para>per la corrispondenza usa una stringa fissa</para>
           </listitem>
         </varlistentry>
 

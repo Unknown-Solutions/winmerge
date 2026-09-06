@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WinMerge 2.16\n"
 "Report-Msgid-Bugs-To: https://github.com/WinMerge/winmerge/issues\n"
-"POT-Creation-Date: 2026-09-01 09:08+0900\n"
+"POT-Creation-Date: 2026-09-07 07:24+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4230,7 +4230,7 @@ msgstr ""
 
 #. type: Content of: <article><section><section><important><para>
 #: ./English/Compare_files.xml:1510
-msgid "If <guilabel>Automatic rescan</guilabel> is disabled, or if you suspect that a file might have changed, we strongly advise that you run <guimenuitem>Refresh</guimenuitem> <emphasis>before</emphasis> performing any merge operation: click <menuchoice> <guimenu>Edit</guimenu> <guimenuitem>Refresh</guimenuitem> </menuchoice> or the <placeholder type=\"inlinemediaobject\" id=\"0\"/> toolbar button, or press <keycap>F5</keycap>."
+msgid "If <guilabel>Automatic rescan</guilabel> is disabled, or if you suspect that a file might have changed, we strongly advise that you run <guimenuitem>Refresh</guimenuitem> <emphasis>before</emphasis> performing any merge operation: click <menuchoice> <guimenu>View</guimenu> <guimenuitem>Refresh</guimenuitem> </menuchoice> or the <placeholder type=\"inlinemediaobject\" id=\"0\"/> toolbar button, or press <keycap>F5</keycap>."
 msgstr ""
 
 #. type: Content of: <article><section><section><important><para>
@@ -17486,7 +17486,7 @@ msgstr ""
 
 #. type: Content of: <article><section><para>
 #: ./English/Quick_start.xml:360
-msgid "WinMerge has a simple integrated editor that features basic typing, copying, cutting and pasting of text. If <guilabel>Automatic rescan</guilabel> is enabled, WinMerge updates file differences while you edit a file. If <guilabel>Automatic rescan</guilabel> is disabled, you can update files by selecting <menuchoice> <guimenu>Edit</guimenu> <guimenuitem>Refresh</guimenuitem> </menuchoice>, clicking the <placeholder type=\"inlinemediaobject\" id=\"0\"/> toolbar button, or pressing <keycap>F5</keycap>."
+msgid "WinMerge has a simple integrated editor that features basic typing, copying, cutting and pasting of text. If <guilabel>Automatic rescan</guilabel> is enabled, WinMerge updates file differences while you edit a file. If <guilabel>Automatic rescan</guilabel> is disabled, you can update files by selecting <menuchoice> <guimenu>View</guimenu> <guimenuitem>Refresh</guimenuitem> </menuchoice>, clicking the <placeholder type=\"inlinemediaobject\" id=\"0\"/> toolbar button, or pressing <keycap>F5</keycap>."
 msgstr ""
 
 #. type: Content of: <appendix><title><indexterm><primary>
